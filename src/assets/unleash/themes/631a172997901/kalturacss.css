@@ -1,0 +1,454 @@
+        /* Fonts
+--------------------------------------------------------------------------------*/
+        /*Charlie Display, Charlie Display Ultra, Charlie Text */
+
+        @font-face {
+            font-family: 'Charlie Display';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-Black.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-Black.woff') format('woff');
+            font-weight: 900;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Charlie Display';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-BlackItalic.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-BlackItalic.woff') format('woff');
+            font-weight: 900;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Charlie Display';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-Bold.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Charlie Display';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-BoldItalic.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-BoldItalic.woff') format('woff');
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Charlie Display';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-Italic.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-Italic.woff') format('woff');
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Charlie Display';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-Light.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-Light.woff') format('woff');
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Charlie Display';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-LightItalic.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-LightItalic.woff') format('woff');
+            font-weight: 300;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Charlie Display';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-Regular.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Charlie Display';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-Semibold.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-Semibold.woff') format('woff');
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Charlie Display';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-SemiboldItalic.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-SemiboldItalic.woff') format('woff');
+            font-weight: 500;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Charlie Display';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-Thin.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-Thin.woff') format('woff');
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Charlie Display';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-ThinItalic.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-ThinItalic.woff') format('woff');
+            font-weight: 100;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Charlie Display Ultra';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-Ultra.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-Ultra.woff') format('woff');
+            font-weight: 900;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Charlie Display Ultra';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-UltraItalic.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Display-UltraItalic.woff') format('woff');
+            font-weight: 900;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Charlie Text';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-Black.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-Black.woff') format('woff');
+            font-weight: 900;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Charlie Text';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-BlackItalic.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-BlackItalic.woff') format('woff');
+            font-weight: 900;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Charlie Text';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-Bold.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Charlie Text';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-BoldItalic.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-BoldItalic.woff') format('woff');
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Charlie Text';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-Italic.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-Italic.woff') format('woff');
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Charlie Text';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-Light.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-Light.woff') format('woff');
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Charlie Text';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-LightItalic.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-LightItalic.woff') format('woff');
+            font-weight: 300;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Charlie Text';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-Regular.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Charlie Text';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-Semibold.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-Semibold.woff') format('woff');
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Charlie Text';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-Semibold_Italic.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-Semibold_Italic.woff') format('woff');
+            font-weight: 600;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Charlie Text';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-Thin.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-Thin.woff') format('woff');
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Charlie Text';
+            src: url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-ThinItalic.woff2') format('woff2'),
+                url('https://swoogo.s3.amazonaws.com/themes/5ce4624b04ac9/Charlie_Text-ThinItalic.woff') format('woff');
+            font-weight: 100;
+            font-style: italic;
+        }
+
+        .html,
+        body,
+        .callToActionButtons {
+            background: #091E42 !important;
+            color: #fff;
+            font-family: 'Charlie Text';
+            font-size: 16px;
+            line-height: normal;
+            opacity: 1 !important;
+        }
+
+        .callToActionButtons .screen-content .ctaTitle {
+            font-size: 36px !important;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            line-height: 32px !important;
+            font-family: 'Charlie Display' !important;
+            font-weight: 300;
+            margin-bottom: 20px !important;
+            text-align: left !important;
+        }
+
+        .ctaTitle::before {
+          content: 'Watch sessions on demand';
+          text-transform: uppercase;
+          font-family: 'Charlie Display';
+          font-weight: 600;
+          font-size: 20px;
+          color: #B3F5FF;
+          letter-spacing: 2px;
+          line-height: 30px;
+          display: block;
+          margin-bottom: 20px;
+        }
+
+        .callToActionButtons .screen-content .cta-button {
+            background: radial-gradient(50% 102%, #ED50B4 0%, #5243AA 100%) !important;
+            background-color: transparent !important;
+            background-image: url(../601c699f25736/rect5.svg) no-repeat !important;
+            background-position: center center !important;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #fff;
+            display: inline-block;
+            width: 315px;
+            height: 190px;
+            float: left;
+            padding: 35px !important;
+            font-family: 'Charlie Display' !important;
+            font-weight: 300;
+            font-size: 40px !important;
+            color: #FFFFFF;
+            letter-spacing: 0.5px;
+            line-height: 50px;
+            position: relative;
+            text-align: left !important;
+        }
+
+        .callToActionButtons .screen-content .cta-button:nth-of-type(2) {
+            background: radial-gradient(50% 98%, #57D9A3 0%, #79E2F2 99%) !important;
+            background-color: transparent !important;
+            /* background-image: url(https://assets.swoogo.com/themes/601c699f25736/rect3.svg) no-repeat !important; */
+            background-position: center center !important;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #091F41;
+            margin-left: 30px;
+            color: #091F41 !important;
+        }
+
+        .callToActionButtons .screen-content .cta-button:nth-of-type(2):hover {
+            background: radial-gradient(50% 198%, #57D9A3 100%, #79E2F2 100%) !important;
+            background-color: transparent !important;
+            /* background-image: url(https://assets.swoogo.com/themes/601c699f25736/rect3_hover.svg) no-repeat !important; */
+            background-position: center center !important;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-decoration: none;
+        }
+
+        .callToActionButtons .screen-content .cta-button:hover {
+            /*background: radial-gradient(50% 223%, #ED50B4 100%, #5243AA 100%);*/
+            /*background-color: red !important;*/
+            background-image: url(../601c699f25736/rect5_hover.svg) !important;
+            background-repeat: no-repeat;
+            background-position: center center !important;
+            background-size: cover;
+            text-decoration: none;
+        }
+
+        .cta-button::after {
+            content: 'See my playlist';
+        }
+
+        .tmpl {
+            padding-left: 30px;
+        }
+
+        .tmpl br {
+            display: none;
+        }
+
+        .callToActionButtons .screen-content .cta-button::after {
+            content: 'See my playlist';
+            font-family: 'Charlie Text';
+            font-weight: 500;
+            font-size: 20px;
+            display: block;
+            letter-spacing: 0;
+            line-height: 24px;
+            position: absolute;
+            bottom: 35px;
+        }
+
+        .callToActionButtons .screen-content {
+            display: table;
+            max-width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0 auto;
+        }
+
+/* Video Quiz Styling below */
+
+/*	Main background image*/
+.videoHolder .screen.quiz {
+  background-image: url(../601c699f25736/QuizBG.png);
+  background-repeat: no-repeat;
+  background-position: center center !important;
+  background-size: cover;
+}
+
+/*	Color of left footer text */
+.ivqContainer .ftr-left {
+  font-family: 'Charlie Text';
+  color: #ffffff;
+}
+/*	Buttons in welcome screen and completed screen*/
+.ivqContainer .confirm-box,
+.ivqContainer .button-box-attr {
+  border-radius: 0;
+  background-color: #;
+  color: #;
+}
+/*	Buttons hover in welcome screen and completed screen*/
+.ivqContainer .confirm-box:hover,
+.ivqContainer .button-box-attr:hover {
+  color: #;
+  background-color: #;
+}
+
+/*	Quiz download background image */
+.ivqContainer .pdf-download-img {
+  background-image: ;
+}
+
+/*  Quiz answer background image  */
+.ivqContainer .single-answer-box-bk {
+  background-image: ;
+}
+
+/*	Quiz answer background image on hover */
+.ivqContainer .single-answer-box-bk:hover:not(.wide) {
+  background-image: ;
+}
+/*	focused answer box*/
+.ivqContainer .single-answer-box-txt-wide {
+  color: #;
+}
+
+/*	Quiz answer background image when applied  */
+.ivqContainer .single-answer-box-bk-apply {
+  background-image: ;
+}
+
+/*	Quiz button when applied background image  */
+.ivqContainer .qApplied {
+  background-image: ;
+}
+
+/*	Quiz button background image */
+.ivqContainer .qContinue {
+  background-image: ;
+}
+
+/*	Quiz hint background image */
+.ivqContainer .hint-why-box {
+  color: #;
+  background-image: ;
+}
+
+/*  Quiz bubble done large  */
+.ivqContainer .q-box {
+  background-image: ;
+}
+
+/*	Quiz done  */
+.controlBarContainer .quizDone-cont {
+  background-image: ;
+}
+
+/*	Quiz bubble hover	*/
+.bubble-cont .bubble-un-ans:hover {
+  background-image: ;
+}
+
+/*	Text color of welcome text	*/
+.ivqContainer .welcomeMessage{
+  font-family: 'Charlie Text';
+  color: #ffffff;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/*	Text color of welcome title */
+.ivqContainer .welcome{
+  font-family: 'Charlie Display';
+  color: #ffffff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Submitted header */
+.ivqContainer .submitted .title-text{
+  font-family: 'Charlie Text';
+  color: #ffffff;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Submitted message */
+.ivqContainer .submitted .sub-text{
+  font-family: 'Charlie Text';
+  color: #ffffff;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Done button */
+.bottomContainer .confirm-box{
+    content: 'Done';
+}

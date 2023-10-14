@@ -1,0 +1,126 @@
+<div class="classy-menu {{classyMenu}}" (click)="onOption(classyMenu)">
+    <div class="covertraitor">
+        <div class="mobileprofile footer-area">
+            <div class="profilemobile">
+                <img src="../../assets/logo.jpg" alt="offica">
+            </div>
+        </div>
+        <div class="mon-espace">
+            <p>{{mynam}}</p>
+        </div>
+
+        <ul id="nav">
+            <li class="activ">
+
+                <a class="fisrnaa" href="/unleash">Explorer</a>
+
+            </li>
+
+            <li class="activ">
+
+
+
+                <a class="fisrnaa" href="/">FAQ</a>
+            </li>
+            <li class="activ">
+
+
+                <a class="fisrnaa" href="/">Home</a>
+
+
+            </li>
+            <li class="activcc" (click)="logOut()">
+                <div class="fisriconc">
+                    <i class="bx bx-log-in"></i>
+                </div>
+                <span class="spaa"></span>
+
+                <a class="fisrnaa">Se deconnecter</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="navbar-area">
+    <div class="strax-responsive-nav">
+        <div class="container">
+            <div class="strax-responsive-menu">
+                <div class="logo">
+                    <a href="#">
+                        <img src="../../assets/shape/28.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <div class="davleft"></div>
+            <a>
+                <img src="../../assets/logof.png" height="70px" width="100px" alt="logo">
+            </a>
+            <li class="nav-item avecico">
+                <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="/unleash" class="nav-link">Explorer</a>
+            </li>
+
+            <li class="nav-item avecico">
+                <a href="/utilisation" class="nav-link">Profil</a>
+            </li>
+        </ul>
+
+
+        <div class="others-options">
+            <a href="" class="default-btn" (click)="logOut()">
+                <i class="bx bxs-log-in"></i>Se deconnecter<span></span>
+            </a>
+
+        </div>
+    </nav>
+    <div class="others-option-for-responsive">
+        <div class="container">
+            <div class="dot-menu">
+                <div class="inner navbarToggler" (click)="onOption(classyMenu)">
+                    <div class="circle circle-one"></div>
+                    <div class="circle circle-two"></div>
+                    <div class="circle circle-three"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="half-curved">
+
+</div>
+<div class="">
+    <app-analyze></app-analyze>
+</div>
+
+<div class="footer-area">
+
+    <div class="container">
+
+        <div class="table">
+            <div class="table-header">
+                <div class="header__item"><a id="name" class="filter__link" href="#">Name</a></div>
+                <div class="header__item"><a id="wins" class="filter__link filter__link--number" href="#">last name</a>
+                </div>
+                <div class="header__item"><a id="draws" class="filter__link filter__link--number" href="#">Phone</a>
+                </div>
+                <div class="header__item"><a id="losses" class="filter__link filter__link--number" href="#">Email</a>
+                </div>
+            </div>
+            <div class="table-content">
+                <div class="table-row" *ngFor="let user of persons">
+                    <div class="table-data">{{ user.name}} </div>
+                    <div class="table-data">{{user.lastname }}</div>
+                    <div class="table-data">{{ user.phone }}</div>
+                    <div class="table-data">{{ user.mail }}</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

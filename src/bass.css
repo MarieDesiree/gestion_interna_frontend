@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'boxicons';
+    font-weight: normal;
+    font-style: normal;
+    src: url('./assets/boxicons.woff2')format('woff2')
+}
+
+.bx {
+    font-family: 'boxicons' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    display: inline-block;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.bx-log-in:before {
+    content: "\ead9"
+}
+
+.bxs-log-in:before {
+    content: "\ed17"
+}
+.bxs-hot:before {
+    content: "\ecf2"
+}
+
+.bx-chevron-up:before {
+    content: "\e9ff"
+}
+
+.bxl-facebook:before {
+    content: "\e91f"
+}
+
+.bxl-twitter:before {
+    content: "\e961"
+}
+
+.bxl-linkedin:before {
+    content: "\e939"
+}
+
+.bxl-instagram:before {
+    content: "\e92f"
+}
+
+.bx-laptop:before {
+    content: "\eab9"
+}
+.bx-cloud-download:before {
+    content: "\ea06"
+}
+.bx-user:before {
+    content: "\ebbc"
+}
+
+/*tofine*/
+

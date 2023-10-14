@@ -1,0 +1,57 @@
+<section class="imabag">
+    <div class="rowdra m-0">
+        <div class="col-lg-6 col-md-12 p-0">
+            <div class="cliontan"></div>
+
+            <div class="login-image">
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 p-0">
+            <div class="login-content">
+                <div class="d-table unblur">
+                    <div class="d-table-cell">
+
+                        <div class="login-form">
+                            <div class="rejjustifa">
+                                <div class="rejjustifaSub">
+                                    <div class="rejectSystem {{rejected}}">
+                                        <img src="../../assets/icons/rejected.png" alt="rejected">
+                                        <span> </span>
+                                        <p>Identifiants Incorrect !</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <br>
+                            <br>
+                            <h3>Bienvenu(e) !</h3>
+                            <p> J'ai pas de Compte ! <a class="linka" href="/signeup">S'inscrire</a></p>
+                            <p style="color: #f7253d;"> </p>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" placeholder=" Numéro de téléphone" class="form-control"
+                                        name="user" required [(ngModel)]="phone">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" placeholder=" Mot de passe" class="form-control"
+                                        name="password" required [(ngModel)]="password">
+                                </div>
+                                <button type="submit" class="default-btn" (click)="onLogin()">
+                                    <i class="bx bxs-hot"></i>
+                                    Connexion
+                                    <div class="{{load28}}"><img src="../../assets/shape/28.png" height="20px"
+                                            width="20px" alt="defdaar"></div>
+                                    <span></span>
+                                </button>
+                                <div class="forgot-password">
+                                    <a href="/"> Mot de passe oublié ?</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

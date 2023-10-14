@@ -1,0 +1,282 @@
+<div class="preloader-area">
+    <div class="spinner">
+        <div class="inner">
+            <div class="disc"></div>
+            <div class="disc"></div>
+            <div class="disc"></div>
+        </div>
+    </div>
+</div>
+
+<div class="classy-menu {{classyMenu}}" (click)="onOption(classyMenu)">
+    <div class="covertraitor">
+        <div *ngIf="isLogged" class="mobileprofile footer-area">
+            <div class="profilemobile">
+                <img src="../../assets/logo.jpg" alt="offica">
+            </div>
+        </div>
+        <div *ngIf="isLogged" class="mon-espace">
+            <p>{{mynam}}</p>
+        </div>
+
+        <div *ngIf="!isLogged" class="mobilepadd">
+        </div>
+
+        <ul id="nav">
+            <li class="activ" *ngIf="isLogged">
+
+                <a class="fisrnaa" href="/utilisation">Explorer</a>
+
+            </li>
+
+            <li class="activ" *ngIf="!isLogged">
+
+                <a class="fisrnaa" href="/signeup">S'inscrire</a>
+
+
+            </li>
+            <li class="activ" *ngIf="!isLogged">
+
+                <a class="fisrnaa" href="/login">Se connecter</a>
+
+
+            </li>
+            <li class="activ">
+
+
+
+                <a class="fisrnaa" href="/">FAQ</a>
+            </li>
+            <li class="activ">
+
+
+                <a class="fisrnaa" href="#contac-section">Contact</a>
+
+
+            </li>
+            <li class="activcc" (click)="logOut()" *ngIf="isLogged">
+                <div class="fisriconc">
+                    <i class="bx bx-log-in"></i>
+                </div>
+                <span class="spaa"></span>
+
+                <a class="fisrnaa">Se deconnecter</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="navbar-area">
+    <div class="strax-responsive-nav">
+        <div class="container">
+            <div class="strax-responsive-menu">
+                <div class="logo">
+                    <a href="#">
+                        <img src="../../assets/shape/28.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <div class="davleft"></div>
+            <a>
+                <img src="../../assets/logof.png" height="70px" width="100px" alt="logo">
+            </a>
+            <li class="nav-item">
+                <a href="#contac-section" class="nav-link">Contact</a>
+            </li>
+
+            <li class="nav-item avecico">
+                <a href="/" class="nav-link">FAQ</a>
+            </li>
+        </ul>
+
+        <div class="others-options">
+            <a href="/signeup" class="default-btn" *ngIf="!isLogged">
+                <i class="bx bxs-hot"></i>S'inscrire<span></span>
+            </a>
+            <a href="/login" class="optional-btn" *ngIf="!isLogged">
+                <i class="bx bx-log-in"></i> Connexion<span></span>
+            </a>
+
+            <a href="{{dasboard}}" class="default-btn" *ngIf="isLogged">
+                <i class="bx bx-user"></i>Mon expace<span></span>
+            </a>
+        </div>
+    </nav>
+    <div class="others-option-for-responsive">
+        <div class="container">
+            <div class="dot-menu">
+                <div class="inner navbarToggler" (click)="onOption(classyMenu)">
+                    <div class="circle circle-one"></div>
+                    <div class="circle circle-two"></div>
+                    <div class="circle circle-three"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="main-banner main-banner-one">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-7 col-md-12">
+
+                <div class="main-banner-content">
+                    <div class="d-table">
+                        <div class="d-table-cell">
+                            <div class="content">
+
+                                <h2>
+                                    Tutoriel Digit Loop pour une meilleure compréhension.
+                                </h2>
+                                <p>
+                                    J'ai créé ce site internet spécialement pour vous, les femmes de Digifemmes. Toutes
+                                    les situations que vous rencontrez quotidiennement sont progressivement disponibles
+                                    ici pour vous aider à avancer plus rapidement et avoir une idée claire. Je vais vous
+                                    guider à travers les bases essentielles de l'utilisation d'un système
+                                    d'exploitation, de Visual Studio Code (VSCode), de Git et des principes de
+                                    programmation en Go.
+                                </p>
+
+                                <div class="anim">
+                                    <div class="button-85a  wow comIn" data-wow-delay=".3s"></div>
+                                    <a href="/signeup" class="button-85 wow comIn" data-wow-delay=".3s" *ngIf="!isLogged">
+                                        <i class="bx bxs-hot"></i> S'inscrire<span></span>
+                                    </a>
+                                    <a href="/unleash" class="button-85 wow comIn" data-wow-delay=".3s" *ngIf="isLogged">
+                                        <i class="bx bxs-hot"></i>Explorer<span></span>
+                                    </a>
+                                </div>
+                                <p> </p>
+                                <a class="greenvalid" data-wow-delay=".3s" *ngIf="iSued">
+                                    Souci de connexion et d'inscribtion résolu
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <div class="banner-image mbanner-bg-one">
+                    <div class="d-table">
+                        <div class="d-table-cell">
+                            <div class="animate-banner-image">
+                                <img src="../../assets/digi1.jpeg" alt="miroi leau">
+                            </div>
+                        </div>
+                    </div>
+                    <img src="../../assets/digi1.jpeg" class="mbanner-img offq" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="shape20"><img src="../../assets/shape/19.png" alt="image"></div>
+    <div class="shape19c"><img src="../../assets/shape/19c.png" alt="image"></div>
+    <div class="shape21"><img src="../../assets/shape/20.png" alt="image"></div>
+    <div class="shape19"><img src="../../assets/shape/18.png" alt="image"></div>
+    <div class="shapeget"><img src="../../assets/shape/get.png" height="75px" width="75px" alt="chunh ging"></div>
+    <div class="shape28"><img src="../../assets/shape/28.png" height="30px" width="30px" alt="defdaar"></div>
+    <div class="shape22"><img src="../../assets/shape/21.png" alt="image"></div>
+    <div class="shape23"><img src="../../assets/shape/22.png" alt="image"></div>
+    <div class="shape24"><img src="../../assets/shape/23.png" height="20px" width="20px" alt="health"></div>
+    <div class="shape26"><img src="../../assets/shape/25.png" alt="image"></div>
+</div>
+
+<div class="features-card-section pt-100 bg-f8fbfa">
+    <div class="container">
+        <div class="row drone">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="single-features-card tx-center">
+
+                    <a href="https://go.dev/">
+                        <img src="../../assets/go.png" height="70px" width="70px" alt="image">
+
+                    </a>
+                    <h3>
+                        <a href="https://go.dev/">Golang</a>
+                    </h3>
+                    <p> An open-source programming language supported by Google.
+                        Easy to learn and great for teams
+                        <br />&nbsp;<br />&nbsp;
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+                <div class="single-features-card tx-center">
+                    <i class='bx bx-laptop'></i>
+                    <h3>
+                        <a href="#">Anglais</a>
+                    </h3>
+                    <p>Les cours d'anglais ne sont pas encore disponibles pour le moment, mais nous travaillons pour les
+                        rendre disponibles prochainement.
+                        <br />&nbsp;
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="half-curved-line">
+
+</div>
+<div class="go-top"><i class='bx bx-chevron-up'></i></div>
+
+<footer class="footer-area">
+    <div class="container">
+        <div class="row drone" id="contac-section">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h3>A Propos</h3>
+                    <p>
+                        Digit Loop est le nom de la plateforme créée par John Kokar, un développeur FullStack, dans le
+                        but de diffuser simplement des tutoriels informatiques pour aider les membres de DigiFemmes
+                        Academy à aller aussi loin que possible.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h3>Contacts</h3>
+                    <ul class="footer-contact-info">
+                        <li>Location: <a href="#" target="_self">Riviera Bonoumin, Carrefour CAP NORD, rue entre la
+                                SGBCI et la COOPEC</a>
+                        </li>
+                        <li>Email: <a href="">
+                                <span class="__cf_email__" data-cfemail="gff">[email&#160;protected]</span>
+                            </a>
+                        </li>
+                        <li>Phone: <a href="tel:+2250554468221">+225 05 54 46 82 21</a></li>
+                    </ul>
+                    <ul class="social">
+                        <li><a style="align-items: center; justify-content: center;"
+                                href="https://www.youtube.com/channel/UCk3zKsAg2QXPt672oRxpaJw/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    style="fill: #fff">
+                                    <path
+                                        d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z">
+                                    </path>
+                                </svg></a></li>
+                        <li><a href="https://www.facebook.com/john.dthaylor/" target="_blank"><i class="bx bxl-facebook"
+                                    style="color: #fff;"></i></a></li>
+                        <li><a href="https://ci.linkedin.com/in/prince-jp-d-taylor-172764236?trk=profile-badge"
+                                target="_blank"><i class="bx bxl-linkedin" style="color: #fff;"></i></a></li>
+                        <li><a href="https://www.instagram.com/john.d.thaylor/" target="_blank"><i
+                                    class="bx bxl-instagram" style="color: #fff;"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright-area">
+            <span style="font-size:20px;font-family:italic">| Digital Loop |</span>Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> | by <a href="https://siblo.net/"
+                target="_blank"><kbd>Silence AI</kbd></a> <i class="fa fa-heart-o" aria-hidden="true"></i>
+
+        </div>
+    </div>
+</footer>

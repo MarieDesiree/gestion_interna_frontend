@@ -1,0 +1,192 @@
+.site-backgroun {
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    background-image: url('../../assets/unleash/Backgroundgradient.svg') !important;//BackgroundImage
+    background-color: #091E42;
+    background-size: cover;
+
+}
+
+
+.content .title,
+.modal-body .title {
+    font-family: 'Charlie Display' !important;
+    font-size: 30px !important;
+    font-weight: normal !important;
+    color: #ffffff !important;
+    text-transform: none !important;
+}
+
+.btn-standard:hover,
+#btn-standard_hover {
+    color: #ABF5D1 !important;
+    border-color: #36B37E !important;
+}
+
+.btn-standard {
+    font-family: 'Charlie Text';
+    font-size: 16px;
+    color: #ffffff;
+    border-color: #36B37E;
+    border-radius: 4px;
+    text-transform: none;
+}
+
+.content a:not([class]):hover,
+.content a[class=""]:hover,
+.content a:not(.btn).swoogo-link:hover,
+#a_hover,
+a:not(.btn).show-details:hover {
+    color: #57D9A3 !important;
+}
+
+.content a:not([class]),
+.content a[class=""],
+.content a:not(.btn).swoogo-link,
+a:not(.btn).show-details {
+    color: #ABF5D1;
+}
+
+.btn-alternate {
+    font-family: 'Charlie Text';
+    font-size: 16px;
+    color: #0052cc;
+    border-color: #0052cc;
+    border-radius: 4px;
+    text-transform: none;
+}
+
+.swoogo-line {
+    color: #79F2C0 !important;
+}
+
+.countdown-amount {
+    font-size: 300%;
+}
+
+.countdown-section {
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .countdown-amount {
+        font-size: 200%;
+    }
+}
+
+
+.alert.alert-danger {
+    display: none !important;
+}
+
+.swoogo-reg-progress {
+    display: none !important;
+}
+
+
+
+
+.filter-suffle-container {
+    height: auto !important;
+}
+
+.t21-sessions.row-session {
+    position: initial !important;
+    transform: initial !important;
+}
+
+.not-visible {
+    display: none;
+}
+
+.shuffle-filter-element-btn {
+    margin-right: 10px;
+    border-radius: 50px;
+    font-size: 12px;
+    height: 25px;
+    line-height: 8px;
+    background: transparent;
+}
+
+.shuffle-filter-element-btn:hover {
+    margin-right: 10px !important;
+    border-radius: 50px !important;
+    color: #091E42 !important;
+    background-color: #57D9A3 !important;
+    border-color: #57D9A3 !important;
+}
+
+.shuffle-filter-element-btn:active {
+    background-color: #57D9A3 !important;
+    border-color: #57D9A3 !important;
+}
+
+.shuffle-filter-element-btn.btn-pink {
+    border-radius: 50px !important;
+}
+
+.no-filter-results {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: 'Charlie Display';
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.tooltip-inner {
+    max-width: 338px;
+    padding: 10px 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #172B4D;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Charlie Text';
+}
+
+.tooltip.top .tooltip-arrow {
+    display: none;
+}
+
+
+.top-pagination-wrap {
+    display: none !important;
+}
+
+
+ol.carousel-indicators {
+    display: none !important;
+}
+
+
+
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+

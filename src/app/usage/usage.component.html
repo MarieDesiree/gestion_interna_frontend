@@ -1,0 +1,251 @@
+<div class="classy-menu {{classyMenu}}" (click)="onOption(classyMenu)">
+    <div class="covertraitor">
+        <div class="mobileprofile footer-area">
+            <div class="profilemobile">
+                <img src="../../assets/logo.jpg" alt="offica">
+            </div>
+        </div>
+        <div class="mon-espace">
+            <p>{{mynam}}</p>
+        </div>
+        <ul id="nav">
+            <li class="activ">
+
+                <a class="fisrnaa" href="/unleash">Explorer</a>
+
+            </li>
+
+            <li class="activ">
+
+
+
+                <a class="fisrnaa" href="/">FAQ</a>
+            </li>
+            <li class="activ">
+
+
+                <a class="fisrnaa" href="/">Home</a>
+
+
+            </li>
+            <li class="activcc" (click)="logOut()">
+                <div class="fisriconc">
+                    <i class="bx bx-log-in"></i>
+                </div>
+                <span class="spaa"></span>
+
+                <a class="fisrnaa">Se deconnecter</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="navbar-area navbar-areb">
+    <div class="strax-responsive-nav">
+        <div class="container">
+            <div class="strax-responsive-menu">
+                <div class="logo">
+                    <a href="#">
+                        <img src="../../assets/shape/28.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <div class="davleft"></div>
+            <a>
+                <img src="../../assets/logof.png" height="70px" width="100px" alt="logo">
+            </a>
+            <li class="nav-item avecico">
+                <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="/unleash" class="nav-link">Explorer</a>
+            </li>
+
+            <li class="nav-item avecico">
+                <a href="/" class="nav-link">FAQ</a>
+            </li>
+        </ul>
+
+
+        <div class="others-options">
+            <div class="profile-container">
+                <div class="profile-picture">
+                    <!-- Insert your profile picture here -->
+                    <img src="../../assets/humans/zahra.png" alt="P P">
+                </div>
+            </div>
+            <div class="profile-info">
+                <div class="dtop"> </div>
+                <h1>{{mynam}}</h1>
+                <div class="logout" (click)="logOut()">
+                    <img src="../../assets/los.png" alt="P P">
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="others-option-for-responsive">
+        <div class="container">
+            <div class="dot-menu">
+                <div class="inner navbarToggler" (click)="onOption(classyMenu)">
+                    <div class="circle circle-one"></div>
+                    <div class="circle circle-two"></div>
+                    <div class="circle circle-three"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="half-curved">
+
+</div>
+
+
+<div class="features-card-section pt-100 bg-f8fbfa">
+    <div class="container">
+        <div class="row drone">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                <p>
+                    Vous pouvez maintenant modifier vos infos.
+                </p>
+                <div class="card-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="first_name">First name / Prénom</label>
+                                <input type="text" class="form-control" name="first_name" id="first_name"
+                                    placeholder="First name / Prénom" [(ngModel)]="name">
+                            </div>
+                            <br>
+                            <div class="form-group col-md-6">
+                                <label for="last_name">Last name / Nom</label>
+                                <input type="text" class="form-control" name="last_name" id="last_name"
+                                    placeholder="Last name / nom" [(ngModel)]="lastname">
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+
+                        <div class="form-group">
+                            <label for="work_phone">Phone / Téléphone</label>
+                            <input type="tel" class="form-control" name="work_phone" id="work_phone"
+                                placeholder="tel: 0554468221" [(ngModel)]="phone">
+                        </div>
+                        <br>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" name="email" id="email"
+                                placeholder="prince@gmail.com" [(ngModel)]="mail">
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-primary" (click)="onUpdate()">Modifier</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+                <div class="single-features-card tx-center">
+                    <i class='bx bx-laptop'></i>
+                    <h3>
+                        <a href="#">Assistance</a>
+                    </h3>
+                    <p>
+                        N'hésitez pas à m'écrire pour tous : 0554468221.
+                        <br />&nbsp;
+                    </p>
+
+                </div>
+                <div class="single-features-card tx-left">
+
+                    <div class="card-body">
+                        <p *ngIf="notmatch" style="color: orange;">Le nouveau passe correspond pas à Confirmer !</p>
+                        <p *ngIf="wrongpass" style="color: red;">L'ancient mot de passe incorrect !</p>
+                        <p *ngIf="updateod" style="color: green;">Modifier avec success !</p>
+
+                        <form>
+                            <div class="form-group">
+                                <label for="ancien"
+                                    style="text-align: left; align-self: self-start; align-items: start;">Mot de passe
+                                    actuel</label>
+                                <input type="password" name="ancien" id="ancien" placeholder="Mot de Passe actuel"
+                                    class="form-control" required [(ngModel)]="oldpassword">
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="password">Nouveau mot de passe</label>
+                                <input type="password" name="password" id="password" placeholder="Nouveau mot de passe"
+                                    class="form-control" required [(ngModel)]="password">
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="password">Repetez pour confirmer</label>
+                                <input type="password" name="confirme" id="confirme"
+                                    placeholder="Repetez pour confirmer" class="form-control" required
+                                    [(ngModel)]="confirme">
+                            </div>
+                            <br>
+                            <button type="submit" class="btn btn-primary" (click)="onPassword()">Valider</button>
+                        </form>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="half-curved-line">
+
+</div>
+
+<footer class="footer-area">
+    <div class="container">
+        <div class="row drone" id="contac-section">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h3>A Propos</h3>
+                    <p> Digit Loop est le nom de la plateforme créée par John Kokar, un développeur FullStack, dans le
+                        but de diffuser simplement des tutoriels informatiques pour aider les membres de DigiFemmes
+                        Academy à aller aussi loin que possible.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-footer-widget">
+                    <h3>Contacts</h3>
+                    <ul class="footer-contact-info">
+                        <li>Location: <a href="#" target="_self">Riviera Bonoumin, Carrefour CAP NORD, rue entre la
+                                SGBCI et la COOPEC</a>
+                        </li>
+                        <li>Email: <a href="">
+                                <span class="__cf_email__" data-cfemail="gff">[email&#160;protected]</span>
+                            </a>
+                        </li>
+                        <li>Phone: <a href="tel:+2250554468221">+225 05 54 46 82 21</a></li>
+                    </ul>
+                    <ul class="social">
+                        <li><a href="https://www.facebook.com/john.dthaylor/" target="_blank"><i
+                                    class="bx bxl-facebook"></i></a></li>
+                        <li><a href="https://ci.linkedin.com/in/prince-jp-d-taylor-172764236?trk=profile-badge"
+                                target="_blank"><i class="bx bxl-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/john.d.thaylor/" target="_blank"><i
+                                    class="bx bxl-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright-area">
+            <span style="font-size:20px;font-family:italic">| DigiLoop |</span>Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> | by <a href="https://siblo.net/"
+                target="_blank"><kbd>Silence</kbd></a> <i class="fa fa-heart-o" aria-hidden="true"></i>
+
+        </div>
+    </div>
+</footer>
